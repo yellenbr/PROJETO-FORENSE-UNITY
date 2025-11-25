@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{8623C578-273C-12BA-D807-AC57F7FAF8D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{BABD8CDD-F360-6D42-80F0-04C531749BB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VSAttribution.Editor", "Unity.VSAttribution.Editor.csproj", "{8A0949DC-14EE-E8D0-F064-70D14F609A41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8623C578-273C-12BA-D807-AC57F7FAF8D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8623C578-273C-12BA-D807-AC57F7FAF8D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8623C578-273C-12BA-D807-AC57F7FAF8D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8623C578-273C-12BA-D807-AC57F7FAF8D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BABD8CDD-F360-6D42-80F0-04C531749BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABD8CDD-F360-6D42-80F0-04C531749BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABD8CDD-F360-6D42-80F0-04C531749BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABD8CDD-F360-6D42-80F0-04C531749BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A0949DC-14EE-E8D0-F064-70D14F609A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0949DC-14EE-E8D0-F064-70D14F609A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0949DC-14EE-E8D0-F064-70D14F609A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0949DC-14EE-E8D0-F064-70D14F609A41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
