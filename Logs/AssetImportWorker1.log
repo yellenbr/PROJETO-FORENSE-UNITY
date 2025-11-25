@@ -1,0 +1,1510 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'pt' Physical Memory: 32599 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/rayel/PROJETOS UNITY/cena forense
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+65138
+Successfully changed project path to: C:/Users/rayel/PROJETOS UNITY/cena forense
+C:/Users/rayel/PROJETOS UNITY/cena forense
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3172] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 35023888 [EditorId] 35023888 [Version] 1048832 [Id] WindowsEditor(7,Enterprise) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3172] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 35023888 [EditorId] 35023888 [Version] 1048832 [Id] WindowsEditor(7,Enterprise) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 37.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/rayel/PROJETOS UNITY/cena forense/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3937 MB
+    Driver:   32.0.15.5599
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012537 seconds.
+- Loaded All Assemblies, in  0.616 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.865 seconds
+Domain Reload Profiling: 1481ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (206ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (196ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (868ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (766ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (225ms)
+			ProcessInitializeOnLoadMethodAttributes (513ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_vray.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_octane.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod1.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_native.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_corona.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.079 seconds
+Refreshing native plugins compatible for Editor in 17.06 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-cena forense
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.500 seconds
+Domain Reload Profiling: 4568ms
+	BeginReloadAssembly (427ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (111ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (1433ms)
+		LoadAssemblies (619ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (940ms)
+			TypeCache.Refresh (880ms)
+				TypeCache.ScanAssembly (847ms)
+			ScanForSourceGeneratedMonoScriptInfo (48ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2501ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2184ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (599ms)
+			ProcessInitializeOnLoadAttributes (1420ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_vray.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_octane.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod1.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_native.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_corona.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 19.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5405 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (140.5 KB). Loaded Objects now: 5842.
+Memory consumption went from 193.2 MB to 193.1 MB.
+Total: 10.969600 ms (FindLiveObjects: 0.915600 ms CreateObjectMapping: 2.466500 ms MarkObjects: 7.340800 ms  DeleteObjects: 0.245100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 526519.011331 seconds.
+  path: Assets/Convai/Scene Templates/ConvaiSceneTemplatePreview.png
+  artifactKey: Guid(6f36d0c4262255e4295487dcf35cb172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Scene Templates/ConvaiSceneTemplatePreview.png using Guid(6f36d0c4262255e4295487dcf35cb172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ebd0371c5646fc3b3e5280d9713f46') in 0.097183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_vray.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_octane.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod1.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_native.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_corona.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  5.890 seconds
+Refreshing native plugins compatible for Editor in 19.47 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-cena forense
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.596 seconds
+Domain Reload Profiling: 7478ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (5575ms)
+		LoadAssemblies (2242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3399ms)
+			TypeCache.Refresh (3324ms)
+				TypeCache.ScanAssembly (3303ms)
+			ScanForSourceGeneratedMonoScriptInfo (50ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1597ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (812ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (546ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_vray.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_octane.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod1.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_native.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_corona.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Universal Render Pipeline/Complex Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
+Refreshing native plugins compatible for Editor in 13.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6904 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 147 unused Assets / (6.9 MB). Loaded Objects now: 7331.
+Memory consumption went from 243.1 MB to 236.2 MB.
+Total: 12.007200 ms (FindLiveObjects: 0.798600 ms CreateObjectMapping: 0.900500 ms MarkObjects: 6.013600 ms  DeleteObjects: 4.292400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 626.384412 seconds.
+  path: Assets/Christna Smith/Christina_Smith.Fbx
+  artifactKey: Guid(56df71c8b1deef84bb278e542efe2a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.Fbx using Guid(56df71c8b1deef84bb278e542efe2a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331ad73ae0fa62a1d559a089ce30d51d') in 1.040715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 371
+========================================================================
+Received Import Request.
+  Time since last request: 109.694073 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Female_Brow_Transparency.mat
+  artifactKey: Guid(25f9b6018d8324c4b8332eaa23c3b9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Female_Brow_Transparency.mat using Guid(25f9b6018d8324c4b8332eaa23c3b9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925d484f4e849f9fd6ef5f499d0236e2') in 0.045478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Hair_Transparency_2nd_Pass.mat
+  artifactKey: Guid(9e1bac9cb9e6b8144bb913d648dbca94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Hair_Transparency_2nd_Pass.mat using Guid(9e1bac9cb9e6b8144bb913d648dbca94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245cb627c31417949d8ede7cd05691ba') in 0.052905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Std_Eye_Occlusion_L.mat
+  artifactKey: Guid(8a10f683ae3a8b44d8e9fca9366d7f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Std_Eye_Occlusion_L.mat using Guid(8a10f683ae3a8b44d8e9fca9366d7f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11db022a89fcb1de37eb046c44def05') in 0.011482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Std_Eye_Occlusion_R.mat
+  artifactKey: Guid(bbb831dfe72de7c48973081517966ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Std_Eye_Occlusion_R.mat using Guid(bbb831dfe72de7c48973081517966ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95783bcd3585521c3bb10398052d947') in 0.009312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Std_Tearline_R.mat
+  artifactKey: Guid(7bb7bfb3b8d7ac443a0782a1c8a0ace3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Std_Tearline_R.mat using Guid(7bb7bfb3b8d7ac443a0782a1c8a0ace3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6edfc8a1d21160a9b31cd10b2494e20') in 0.013250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Hair_Transparency_1st_Pass.mat
+  artifactKey: Guid(ff511fa551e38ae4d86aa4225d2a4326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Hair_Transparency_1st_Pass.mat using Guid(ff511fa551e38ae4d86aa4225d2a4326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff9ed218a1616ef8a6364aa6202eace') in 0.054111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Std_Lower_Teeth.mat
+  artifactKey: Guid(d7072a8d459297045ab3e31aac294398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Std_Lower_Teeth.mat using Guid(d7072a8d459297045ab3e31aac294398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5eff46c1290d14e0ece0d1a087560b8') in 0.024425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Female_Brow_Transparency_2nd_Pass.mat
+  artifactKey: Guid(48f81a1c1e4223b49a2f81e524cf60ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Female_Brow_Transparency_2nd_Pass.mat using Guid(48f81a1c1e4223b49a2f81e524cf60ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19132a82c926b720b438a82d7020e94c') in 0.018866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Std_Tearline_L.mat
+  artifactKey: Guid(767ac21ef67045b46812d8292c45d0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Std_Tearline_L.mat using Guid(767ac21ef67045b46812d8292c45d0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06abebda83a5b5831cc7e567fbd80b92') in 0.010485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Hair_Transparency.mat
+  artifactKey: Guid(e463fef676a50ed418c2a4d508857e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Hair_Transparency.mat using Guid(e463fef676a50ed418c2a4d508857e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea6d80b00a832f9cda41bb7a7447c48') in 0.045499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Female_Brow_Transparency_1st_Pass.mat
+  artifactKey: Guid(4b27776d5aac772489ea32f7f00cef0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Female_Brow_Transparency_1st_Pass.mat using Guid(4b27776d5aac772489ea32f7f00cef0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9484bdc44c020e554eb8dd5e9587719f') in 0.017539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Std_Nails.mat
+  artifactKey: Guid(8a7d22ea767ea8741b536477493c14e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Std_Nails.mat using Guid(8a7d22ea767ea8741b536477493c14e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e41acc074dccb985ca7f544e90aaea8') in 0.032368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Std_Tongue.mat
+  artifactKey: Guid(076d9d54c587ff644a86d70be35effd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Std_Tongue.mat using Guid(076d9d54c587ff644a86d70be35effd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29f507d5f6cda046d2a32a630576ecf') in 0.017554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Std_Skin_Body.mat
+  artifactKey: Guid(a665f7eac9e340f459185f5e55023ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Std_Skin_Body.mat using Guid(a665f7eac9e340f459185f5e55023ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974027c4cb0d1b1755e712528117cee5') in 0.034225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Fit_shirts.mat
+  artifactKey: Guid(9455deed8fed24941b3a3bcafca40f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Fit_shirts.mat using Guid(9455deed8fed24941b3a3bcafca40f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b054770a56e7344f6b9835b182484fab') in 0.024170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Scalp_Transparency.mat
+  artifactKey: Guid(18063c9860477a14f9b0fe05b5596e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Scalp_Transparency.mat using Guid(18063c9860477a14f9b0fe05b5596e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1c1209e0817691eece119895fe1682') in 0.018181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Christna Smith/Materials/Christina_Smith/Std_Skin_Head 1.mat
+  artifactKey: Guid(e196ca87e72d44948a2f601c6dc4bfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Materials/Christina_Smith/Std_Skin_Head 1.mat using Guid(e196ca87e72d44948a2f601c6dc4bfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbd7f9bb4e423e19bb41fb4260ec618') in 0.085165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.513697 seconds.
+  path: Assets/Convai/Demo/Materials/NPC Amelia/Denim_shorts.mat
+  artifactKey: Guid(b8d0ad5e8b77f3445a0766fc5090047d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Materials/NPC Amelia/Denim_shorts.mat using Guid(b8d0ad5e8b77f3445a0766fc5090047d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c993012ab849c99449974ef62f1f46') in 0.063401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Convai/Demo/Materials/NPC Amelia/Std_Skin_Leg.mat
+  artifactKey: Guid(93deaa64b79be714396a89f32b1e2a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Materials/NPC Amelia/Std_Skin_Leg.mat using Guid(93deaa64b79be714396a89f32b1e2a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021109e95b245e5657096a39eeee7f78') in 0.021724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Convai/Demo/Materials/NPC Amelia/Female_Brow_Base_Transparency.mat
+  artifactKey: Guid(72be73a3ae0b58f47b35d0936b9543cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Materials/NPC Amelia/Female_Brow_Base_Transparency.mat using Guid(72be73a3ae0b58f47b35d0936b9543cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4a9359b3794a4fa2a64c6715bd09cc') in 0.014700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Convai/Demo/Materials/NPC Amelia/Hair_Transparency_1st_Pass.mat
+  artifactKey: Guid(8dcdc6717700f4d4a8a1492250c43495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Materials/NPC Amelia/Hair_Transparency_1st_Pass.mat using Guid(8dcdc6717700f4d4a8a1492250c43495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd401d9a3b8a07b41e80be57510256a7') in 0.018794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Convai/Demo/Materials/NPC Amelia/Std_Upper_Teeth.mat
+  artifactKey: Guid(2601ba560d179ae4c9cbc35d7551fd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Materials/NPC Amelia/Std_Upper_Teeth.mat using Guid(2601ba560d179ae4c9cbc35d7551fd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2fe2a9b496bf8e0e2b77bf60014c64') in 0.015312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Convai/Demo/Materials/NPC Amelia/Std_Tongue.mat
+  artifactKey: Guid(ba4887b595b33b348891fa4084622d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Materials/NPC Amelia/Std_Tongue.mat using Guid(ba4887b595b33b348891fa4084622d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea7b5b9802d59e265861577e0ea98da') in 0.013499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Convai/Demo/Materials/NPC Amelia/Std_Cornea_R.mat
+  artifactKey: Guid(bf392bc8373dec647a16e405ba48d0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Materials/NPC Amelia/Std_Cornea_R.mat using Guid(bf392bc8373dec647a16e405ba48d0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0a301bcb4e32604d5984481cafa818') in 0.012111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Convai/Demo/Materials/NPC Amelia/Std_Eye_Occlusion_R.mat
+  artifactKey: Guid(48fbf451abd29bf46b93d08d3c6600e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Materials/NPC Amelia/Std_Eye_Occlusion_R.mat using Guid(48fbf451abd29bf46b93d08d3c6600e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952b96158ee3328bb846aa7824064fe8') in 0.010035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Convai/Demo/Materials/NPC Amelia/Std_Lower_Teeth.mat
+  artifactKey: Guid(29cd2e06066c3f544895096676b55c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Materials/NPC Amelia/Std_Lower_Teeth.mat using Guid(29cd2e06066c3f544895096676b55c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b333c3a7fc4339c4b71adbd20de3a9d6') in 0.013155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Convai/Demo/Materials/NPC Amelia/Hair_Transparency_2nd_Pass.mat
+  artifactKey: Guid(859730aae1de4bb4f8ef238036f4d219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Materials/NPC Amelia/Hair_Transparency_2nd_Pass.mat using Guid(859730aae1de4bb4f8ef238036f4d219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79766d79b0478302d1491ad83554bd04') in 0.011456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Convai/Demo/Materials/NPC Amelia/Scalp_Transparency.mat
+  artifactKey: Guid(e6db58f361e033b4b9c31dbcf95ebb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Materials/NPC Amelia/Scalp_Transparency.mat using Guid(e6db58f361e033b4b9c31dbcf95ebb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54daac00f58e77d455c2cca5c80eeb2f') in 0.012594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Convai/Demo/Materials/NPC Amelia/Std_Tearline_R.mat
+  artifactKey: Guid(72083195ffb075140872294af8b493f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Materials/NPC Amelia/Std_Tearline_R.mat using Guid(72083195ffb075140872294af8b493f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4086e4251bafdac802b59a4624b968b') in 0.013597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Convai/Demo/Materials/NPC Amelia/Std_Skin_Head.mat
+  artifactKey: Guid(409e2d8d775caf746af9c6043912c67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Materials/NPC Amelia/Std_Skin_Head.mat using Guid(409e2d8d775caf746af9c6043912c67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0515f75e054a0678aec5c46b9cfb660') in 0.025466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1.154219 seconds.
+  path: Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Mouth/dentes.mat
+  artifactKey: Guid(56bcb0fab40f3cf40b18be5ef32fed2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Mouth/dentes.mat using Guid(56bcb0fab40f3cf40b18be5ef32fed2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f159a2a6d59e3e1efc80fd3f64ee6f1') in 0.014382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Mouth/Std_Tongue_Diffuse.jpg
+  artifactKey: Guid(454cbb5742ebc6c469be70614ba7b467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Mouth/Std_Tongue_Diffuse.jpg using Guid(454cbb5742ebc6c469be70614ba7b467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcc287e4ab021eba6de27bc646a5c35') in 0.024142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Mouth/Std_Tongue_Normal.jpg
+  artifactKey: Guid(b24818cf3cdbd244a9a0eb55dcf9faca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Mouth/Std_Tongue_Normal.jpg using Guid(b24818cf3cdbd244a9a0eb55dcf9faca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34540aea146fb97b4fd47ad8523b0154') in 0.018463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Mouth/lingua.mat
+  artifactKey: Guid(fac56a452cbdd774ba879a384095ee5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Mouth/lingua.mat using Guid(fac56a452cbdd774ba879a384095ee5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39cffc25433136616418ff9fd878886d') in 0.018772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Mouth/Std_Tongue_GradAO.jpg
+  artifactKey: Guid(5052d11c35b9b5c4abf7a3629f9356e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Mouth/Std_Tongue_GradAO.jpg using Guid(5052d11c35b9b5c4abf7a3629f9356e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652a716e71aa4052b33ed24234c92b65') in 0.009666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Mouth/Std_Upper_Teeth_HDRP.png
+  artifactKey: Guid(caf37b3a245a48442b4ab23d88c6f095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Mouth/Std_Upper_Teeth_HDRP.png using Guid(caf37b3a245a48442b4ab23d88c6f095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2ccff7562374912b543d1c2d696c24') in 0.011523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Mouth/Std_Upper_Teeth_GumsMask.jpg
+  artifactKey: Guid(8545684a42c939e4d9f6cd3e0f87130c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Mouth/Std_Upper_Teeth_GumsMask.jpg using Guid(8545684a42c939e4d9f6cd3e0f87130c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ed4a7babc40c5f2547bedffc13784d') in 0.020465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Mouth/Std_Lower_Teeth_HDRP.png
+  artifactKey: Guid(890ba1f81af21ee4bb1485c9ce961e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Mouth/Std_Lower_Teeth_HDRP.png using Guid(890ba1f81af21ee4bb1485c9ce961e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4670141f2a253f601f1aec27f306a173') in 0.009071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.519483 seconds.
+  path: Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Eye/corneaL.mat
+  artifactKey: Guid(0d3646d809f43cb4086d2bda8eeb89d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Eye/corneaL.mat using Guid(0d3646d809f43cb4086d2bda8eeb89d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1ad14eb4dd7ce2fcc17eaa674ce72a') in 0.013135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Eye/Std_Eye_R_Diffuse.jpg
+  artifactKey: Guid(ef484af70588a9c4983d7042eca74b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Eye/Std_Eye_R_Diffuse.jpg using Guid(ef484af70588a9c4983d7042eca74b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07199280709f02422385bb1ca5b570c1') in 0.011015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Eye/Std_Cornea_R_BCBMap.jpg
+  artifactKey: Guid(4bc74f4f4977f6c49a345e5b73775589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Eye/Std_Cornea_R_BCBMap.jpg using Guid(4bc74f4f4977f6c49a345e5b73775589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874433d44fb685d72fb53495de43a5ad') in 0.020061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Eye/olho R.mat
+  artifactKey: Guid(69a45d72b5b2d31459545b44e2ba79f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Eye/olho R.mat using Guid(69a45d72b5b2d31459545b44e2ba79f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1258c90e2b46e871073f5e0f833189e5') in 0.012756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Eye/Std_Eye_L_Diffuse.jpg
+  artifactKey: Guid(8ffea2d38d4d302438dea46f6ff3de09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Eye/Std_Eye_L_Diffuse.jpg using Guid(8ffea2d38d4d302438dea46f6ff3de09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6e357cecac59f9df200ea417e20c74') in 0.007760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Eye/Std_Cornea_L_Sclera.png
+  artifactKey: Guid(6d65ea6b1b9a17a4d93c7fdb677113b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Eye/Std_Cornea_L_Sclera.png using Guid(6d65ea6b1b9a17a4d93c7fdb677113b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9ccb492a162c866b9526a555802186') in 0.006496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Eye/olhoL.mat
+  artifactKey: Guid(1020720966b24514f8f1cc14e5372407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Eye/olhoL.mat using Guid(1020720966b24514f8f1cc14e5372407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c93d99446d89e961ff242c3af67bba0') in 0.017349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Eye/Std_Cornea_L_Diffuse.jpg
+  artifactKey: Guid(a0e42a03d9469bd489c27f97854273ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convai/Demo/Avatars/Convai NPC Amelia/Textures/Eye/Std_Cornea_L_Diffuse.jpg using Guid(a0e42a03d9469bd489c27f97854273ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340887c359eda0b320cd73e0f170d7c7') in 0.009935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.464469 seconds.
+  path: Assets/Scenes/grama/Grass01_2K_BaseColor.png
+  artifactKey: Guid(21a3916c27c254f49818c436d977c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/grama/Grass01_2K_BaseColor.png using Guid(21a3916c27c254f49818c436d977c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b214b417d9c05c224cf5cada4b9694d') in 0.018480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/grama/Grass01_2K_Height.png
+  artifactKey: Guid(9918f484f4e43b346a48daa52df9a8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/grama/Grass01_2K_Height.png using Guid(9918f484f4e43b346a48daa52df9a8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a721d3438b0165c7bf7b99a7187d59') in 0.025312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/grama/New Material.mat
+  artifactKey: Guid(75e91b9d27f966548929cfecd9d96720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/grama/New Material.mat using Guid(75e91b9d27f966548929cfecd9d96720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387b68eb8baba1390ffb9a1003ae9d6f') in 0.040844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Prepare
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_vray.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_octane.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod1.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_native.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_corona.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Switching render pipeline 00000000000000000000000000000000 -> 647be54c9da7e414d9d30e7d49a3d873
+Refreshing native plugins compatible for Editor in 16.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 131 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (4.5 MB). Loaded Objects now: 7461.
+Memory consumption went from 149.8 MB to 145.3 MB.
+Total: 7.201000 ms (FindLiveObjects: 0.671400 ms CreateObjectMapping: 0.833800 ms MarkObjects: 3.543600 ms  DeleteObjects: 2.150900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_vray.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_octane.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod1.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_native.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_corona.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Refreshing native plugins compatible for Editor in 16.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (3.1 MB). Loaded Objects now: 7481.
+Memory consumption went from 138.8 MB to 135.7 MB.
+Total: 8.836900 ms (FindLiveObjects: 0.936900 ms CreateObjectMapping: 0.867900 ms MarkObjects: 5.737900 ms  DeleteObjects: 1.293200 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 81.068246 seconds.
+  path: Assets/Scenes/grama/Grass01_2K_BaseColor.png
+  artifactKey: Guid(21a3916c27c254f49818c436d977c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/grama/Grass01_2K_BaseColor.png using Guid(21a3916c27c254f49818c436d977c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a6fa442d317b725c109ee64ebbef24') in 0.024961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/grama/Grass01_2K_Height.png
+  artifactKey: Guid(9918f484f4e43b346a48daa52df9a8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/grama/Grass01_2K_Height.png using Guid(9918f484f4e43b346a48daa52df9a8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa1c5ab59b9020c68a4fec10c385430') in 0.003818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/grama/New Material.mat
+  artifactKey: Guid(75e91b9d27f966548929cfecd9d96720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/grama/New Material.mat using Guid(75e91b9d27f966548929cfecd9d96720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a32e66f9458aaeeef3b0961845b7f6') in 0.002897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2065.342424 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Boots_Normal.png
+  artifactKey: Guid(9a9d4aeec105a574398c30d75e13b31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Boots_Normal.png using Guid(9a9d4aeec105a574398c30d75e13b31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee2a637c50d5ad65719f5b1f261626e') in 0.005062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/High_polytail_Transparency_Bump.jpg
+  artifactKey: Guid(70eaf707de33fe54a84283208f8d7481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/High_polytail_Transparency_Bump.jpg using Guid(70eaf707de33fe54a84283208f8d7481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fbb636673496580bd4c23c379cee90') in 0.003895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Std_Eye_L_Normal.jpg
+  artifactKey: Guid(35c200cef8cc2214cbb56c4979021686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Std_Eye_L_Normal.jpg using Guid(35c200cef8cc2214cbb56c4979021686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df39c520a4b4ea926d74c287c0902269') in 0.002409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Std_Skin_Head_Normal.png
+  artifactKey: Guid(33538490a7e77e347bb712b56bc05b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Std_Skin_Head_Normal.png using Guid(33538490a7e77e347bb712b56bc05b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3f772458a1b4d763e210411d4069a6') in 0.011185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Layered_sweater_Diffuse.png
+  artifactKey: Guid(779b0715d640ce84293025e664490046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Layered_sweater_Diffuse.png using Guid(779b0715d640ce84293025e664490046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c636c91d2a7fe66f317971d7ac1f6d') in 0.009997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Female_Angled_Transparency_Diffuse.png
+  artifactKey: Guid(02778bf18cb6dd344add6d9d83607f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Female_Angled_Transparency_Diffuse.png using Guid(02778bf18cb6dd344add6d9d83607f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f43f4ef22e5d78e5006b316a7146b2') in 0.008023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Std_Skin_Arm_Normal.png
+  artifactKey: Guid(5740f65d19f8bd040a25ed04022d3685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Std_Skin_Arm_Normal.png using Guid(5740f65d19f8bd040a25ed04022d3685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9510fe3006c5cc69987dcbea895644ff') in 0.004980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/High_polytail_Transparency_Diffuse.png
+  artifactKey: Guid(6ff5dc0a90f08774b8feab4eec3b5275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/High_polytail_Transparency_Diffuse.png using Guid(6ff5dc0a90f08774b8feab4eec3b5275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bcaff625009e63ef14c61000285a2ee') in 0.003675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Scalp_High_polytail_Transparency_Diffuse.png
+  artifactKey: Guid(45651a2f33ed6d34bbedb3d939858892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Scalp_High_polytail_Transparency_Diffuse.png using Guid(45651a2f33ed6d34bbedb3d939858892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97ad1bf5790acc7c4e1bc6109905a11') in 0.005038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Std_Upper_Teeth_Normal.jpg
+  artifactKey: Guid(8832d7d5e53f03e4c93a85953437e77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Std_Upper_Teeth_Normal.jpg using Guid(8832d7d5e53f03e4c93a85953437e77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026707dd4a634f2e364713eb55bf22eb') in 0.002679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Std_Nails_Diffuse.jpg
+  artifactKey: Guid(8daeb743edbad4c4696549355a700326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Std_Nails_Diffuse.jpg using Guid(8daeb743edbad4c4696549355a700326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c080b60ce281aeef34df29043a6273') in 0.003100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Fit_shirts_Normal.jpg
+  artifactKey: Guid(7617c80802d4a124d9ecbe9922bded67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Fit_shirts_Normal.jpg using Guid(7617c80802d4a124d9ecbe9922bded67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f624a40c8b5216ffa4d61d806afdc42') in 0.003667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Std_Tongue_Normal.jpg
+  artifactKey: Guid(6f052fa73477a1a47801ef6db666aeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Std_Tongue_Normal.jpg using Guid(6f052fa73477a1a47801ef6db666aeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddd8df33f18081fb0c559cb5fcaf3cf') in 0.002359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Scalp_Transparency_Diffuse.png
+  artifactKey: Guid(c32fd012430b0d649b16a5b65bdc8f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Scalp_Transparency_Diffuse.png using Guid(c32fd012430b0d649b16a5b65bdc8f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45673e32869bdb2f79fca6bf0c688201') in 0.003331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Std_Skin_Leg_Normal.png
+  artifactKey: Guid(1bbfc79d66359e246b73517789913bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Std_Skin_Leg_Normal.png using Guid(1bbfc79d66359e246b73517789913bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7aa1c6b22bdf7d798bae2b7d9aa544') in 0.004821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Std_Upper_Teeth_Diffuse.jpg
+  artifactKey: Guid(8c8471ae54940f541b8c0e6568535ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Std_Upper_Teeth_Diffuse.jpg using Guid(8c8471ae54940f541b8c0e6568535ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e903eb519a30176ed07ad91e7f4db2f') in 0.001523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Std_Skin_Body_Normal.png
+  artifactKey: Guid(37336eae671999e45b2ec12f628428d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Std_Skin_Body_Normal.png using Guid(37336eae671999e45b2ec12f628428d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d801b88605cb791d487d1908726c6f3') in 0.004677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Std_Skin_Leg_Normal.jpg
+  artifactKey: Guid(e10b8c3dd2fa41644b3d3942fe615658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Std_Skin_Leg_Normal.jpg using Guid(e10b8c3dd2fa41644b3d3942fe615658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14afed7a167b1629e1f167c6eb275212') in 0.003285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Fit_shirts_Diffuse.jpg
+  artifactKey: Guid(edd0ab61dff700845a47dbeab78ca8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Fit_shirts_Diffuse.jpg using Guid(edd0ab61dff700845a47dbeab78ca8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b8f91f4c7ae95acfa8365c337dc684') in 0.002538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Scalp_High_polytail_Transparency_Bump.jpg
+  artifactKey: Guid(6d4bc69dcf585cf4c96737131cc32df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Scalp_High_polytail_Transparency_Bump.jpg using Guid(6d4bc69dcf585cf4c96737131cc32df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e70de8278cd4379177f825a9eb9a542') in 0.001801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Female_Brow_Transparency_Diffuse.png
+  artifactKey: Guid(cb9b633ef693a524dad1a55961a37551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Female_Brow_Transparency_Diffuse.png using Guid(cb9b633ef693a524dad1a55961a37551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19c131a6eb9f83c22a63469bc39587a') in 0.004538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Std_Eye_R_Diffuse.jpg
+  artifactKey: Guid(80d26ed55511d2048b02d2856923ec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Std_Eye_R_Diffuse.jpg using Guid(80d26ed55511d2048b02d2856923ec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ea3150ad124676890f03f5d5e18e98') in 0.006156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Std_Skin_Head_Normal.jpg
+  artifactKey: Guid(aa41249807b9230448220659eb1d9438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Std_Skin_Head_Normal.jpg using Guid(aa41249807b9230448220659eb1d9438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9902b85c171ed3f5db745efd0a3e0696') in 0.006362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Std_Skin_Arm_Normal.jpg
+  artifactKey: Guid(7b01049c301c51b4387facf607111379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Std_Skin_Arm_Normal.jpg using Guid(7b01049c301c51b4387facf607111379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb02c04261791bf82d54bdca61836faa') in 0.004499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Std_Skin_Arm_Diffuse.jpg
+  artifactKey: Guid(9d9173cd2cd868d4face4686039bb1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Std_Skin_Arm_Diffuse.jpg using Guid(9d9173cd2cd868d4face4686039bb1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672519f5d4cbe2693ec2919ea440550a') in 0.003063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Christna Smith/Christina_Smith.fbm/Std_Eye_L_Diffuse.jpg
+  artifactKey: Guid(8863642427e8f2348af179928d4439ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christna Smith/Christina_Smith.fbm/Std_Eye_L_Diffuse.jpg using Guid(8863642427e8f2348af179928d4439ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0463a9dcdc38ae5c720f45f389ab2dfa') in 0.006083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_vray.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_octane.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod1.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_native.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_corona.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.968 seconds
+Refreshing native plugins compatible for Editor in 13.59 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-cena forense
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.232 seconds
+Domain Reload Profiling: 5191ms
+	BeginReloadAssembly (361ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (153ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (1400ms)
+		LoadAssemblies (838ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (662ms)
+			TypeCache.Refresh (642ms)
+				TypeCache.ScanAssembly (600ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (3233ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1486ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (204ms)
+			ProcessInitializeOnLoadAttributes (1112ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 10.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6864 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (3.0 MB). Loaded Objects now: 7492.
+Memory consumption went from 248.2 MB to 245.2 MB.
+Total: 9.265900 ms (FindLiveObjects: 0.677900 ms CreateObjectMapping: 0.802600 ms MarkObjects: 5.929900 ms  DeleteObjects: 1.854200 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_vray.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_octane.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod1.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_native.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_corona.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.673 seconds
+Refreshing native plugins compatible for Editor in 43.13 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-cena forense
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.379 seconds
+Domain Reload Profiling: 4041ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (174ms)
+	LoadAllAssembliesAndSetupDomain (1141ms)
+		LoadAssemblies (670ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (550ms)
+			TypeCache.Refresh (521ms)
+				TypeCache.ScanAssembly (496ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (2379ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1366ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (488ms)
+			ProcessInitializeOnLoadAttributes (655ms)
+			ProcessInitializeOnLoadMethodAttributes (185ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 14.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6859 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (3.1 MB). Loaded Objects now: 7501.
+Memory consumption went from 247.2 MB to 244.0 MB.
+Total: 7.196500 ms (FindLiveObjects: 0.705400 ms CreateObjectMapping: 0.743500 ms MarkObjects: 4.293600 ms  DeleteObjects: 1.452600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_vray.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_octane.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod1.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_native.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_corona.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.468 seconds
+Refreshing native plugins compatible for Editor in 10.97 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-cena forense
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.396 seconds
+Domain Reload Profiling: 3853ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (1134ms)
+		LoadAssemblies (548ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (634ms)
+			TypeCache.Refresh (620ms)
+				TypeCache.ScanAssembly (599ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2397ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1273ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (862ms)
+			ProcessInitializeOnLoadMethodAttributes (228ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 17.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6859 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (3.1 MB). Loaded Objects now: 7508.
+Memory consumption went from 247.2 MB to 244.0 MB.
+Total: 8.719100 ms (FindLiveObjects: 0.856200 ms CreateObjectMapping: 0.920200 ms MarkObjects: 4.556700 ms  DeleteObjects: 2.384900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_vray.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_octane.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod1.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_native.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_corona.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.526 seconds
+Refreshing native plugins compatible for Editor in 13.47 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-cena forense
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.354 seconds
+Domain Reload Profiling: 3869ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (1125ms)
+		LoadAssemblies (655ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (576ms)
+			TypeCache.Refresh (557ms)
+				TypeCache.ScanAssembly (532ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2354ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1141ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (162ms)
+			ProcessInitializeOnLoadAttributes (727ms)
+			ProcessInitializeOnLoadMethodAttributes (180ms)
+			AfterProcessingInitializeOnLoad (49ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (84ms)
+Refreshing native plugins compatible for Editor in 24.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6859 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (3.1 MB). Loaded Objects now: 7515.
+Memory consumption went from 247.2 MB to 244.0 MB.
+Total: 7.209800 ms (FindLiveObjects: 0.608200 ms CreateObjectMapping: 0.820300 ms MarkObjects: 4.010000 ms  DeleteObjects: 1.770000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_vray.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_octane.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/semaforo/hqm67wmkspog-Semaforo/Lod1.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_native.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/Scenes/vitima/pessoa/11-rp_nathan_animated_003_walking_c4d/rp_nathan_animated_003_walking_corona.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.885 seconds
+Refreshing native plugins compatible for Editor in 17.22 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-cena forense
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.950 seconds
+Domain Reload Profiling: 3825ms
+	BeginReloadAssembly (651ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (465ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (270ms)
+	LoadAllAssembliesAndSetupDomain (863ms)
+		LoadAssemblies (560ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (412ms)
+			TypeCache.Refresh (387ms)
+				TypeCache.ScanAssembly (365ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1950ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (899ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (650ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 12.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6859 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (3.1 MB). Loaded Objects now: 7522.
+Memory consumption went from 247.1 MB to 244.0 MB.
+Total: 6.017200 ms (FindLiveObjects: 0.525500 ms CreateObjectMapping: 0.649300 ms MarkObjects: 3.274600 ms  DeleteObjects: 1.566400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
